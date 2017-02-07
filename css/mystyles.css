@@ -31,6 +31,7 @@ address{
 
 body{
     z-index: 0;
+    font-family: Avenir;
 }
 
 .navbar-inverse{
@@ -82,6 +83,76 @@ body{
     position: absolute;
 }
 
+#menu-button{
+    color:#FF6600; 
+    font-size:26px; 
+    background-color: transparent; 
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.navbar-toggle{
+    border:none;
+    font-size:25px;
+}
+
 #page-content-wrapper .container-fluid{
     padding-top:40px;
+}
+
+#content.thumbnail{
+    padding-top: 20px;
+}
+
+#trip-list.thumbnail{
+    background-color: #EEEEEE;
+}
+
+.well.well-lg{
+    border-radius: 3px;
+    border-color: transparent;
+    background-image:none;
+    background-color: #EEEEEE;
+    padding-top: 20px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.trip-list{
+    padding-top: 20px;
+}
+
+h1{
+    font-family:avenir, 'avenir next', helvetica, arial, sans-serif;
+    text-transform:capitalize;
+    font-variant:small-caps;
+}
+
+h3{
+    display:inline;
+    font-size: 25px;
+    font-family:avenir, 'avenir next', helvetica, sans-serif;
+}
+h4{
+    padding-top: 20px;
+    display: inline;
+    font-weight:lighter;
+    font-size: 18px;
+}
+
+
+.trip-detail{
+    background-color:transparent; 
+    font-size:30px;
+    margin:2    0px;
+}
+
+.trip-detail.trip-name{
+    margin:5px;
+    padding:5px;
+}
+
+.trip-detail.trip-date{
+    margin:5px;
+    padding:5px;
 }
