@@ -142,25 +142,23 @@ h4{
     font-size: 18px;
 }
 
+.trip-content{
+    margin: 15px;
+}
 
 .trip-detail{
     background-color:transparent; 
     font-size:30px;
-    margin:2    0px;
 }
 
-.trip-name{
-    margin:5px;
-    padding:5px;
-}
+
 
 .trip-date{
-    margin:5px;
-    padding:5px;
+    margin-top:15px;
 }
 
 .trip-progress{
-    margin-top:70px;
+    margin-top:30px;
 }
 
 .progress{
