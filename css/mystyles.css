@@ -67,7 +67,7 @@ body{
     color: #FF6600;
     font-size: 36px;
     vertical-align: middle;
-    padding-top: 13px;
+    padding-top: 14px;
 }
 
 .navbar-custom .navbar-collapse .title-add > li > a{
@@ -157,4 +157,64 @@ h4{
 .trip-date{
     margin:5px;
     padding:5px;
+}
+
+.trip-progress{
+    margin-top:60px;
+}
+
+.progress{
+    width: 80%;
+    height: 13px;
+    float: right;
+}
+
+.progress-bar{
+    background-color: #f0ad4e;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;   
+}
+
+.trip-due{
+    float: right;
+}
+
+.btn-warning{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background-image: none;
+}
+
+.trip-button{
+    float:right;
+    width:80px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #CC9933;
+    color: #F3F3F3;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    margin-top:20px;
+}
+
+.trip-button-plan{
+    background-color: FF5500;
+}
+
+.trip-button-view{
+    background-color: #ff8000;
+}
+
+.img-circle{
+    width: 40px;
+    height: 40px;
+}
+
+.profile-down{
+    margin-left: 10px;
+}
+
+.trip-member{
+    margin-top:20px;
 }
