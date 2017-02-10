@@ -1,4 +1,4 @@
-Lab 2
+TravelAnt
 ====
 
-Lab 2 introduces you to static HTML, CSS, and Bootstrap.
+A polling web app for trip plans.
