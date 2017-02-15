@@ -122,8 +122,9 @@
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                             <div class="activity-vote">
+                                                <!-- <a herf=""><i class="fa fa-arrow-up disabled"></i></a> !-->
                                                 <a href=""><i class="fa fa-arrow-up"></i></a>
-                                                <span class="activity-vote-num">3</span>
+                                                <span class="activity-vote-num">5</span>
                                             </div>
                                         </div>
                                     </div>
@@ -146,8 +147,9 @@
                                                 <i class="fa fa-quote-right"></i>
                                             </div>
                                             <div class="activity-vote">
+                                                <!-- <a herf=""><i class="fa fa-arrow-up disabled"></i></a> !-->
                                                 <a href=""><i class="fa fa-arrow-up"></i></a>
-                                                <span class="activity-vote-num">2</span>
+                                                <span class="activity-vote-num">4</span>
                                             </div>
                                         </div>
                                     </div>
@@ -169,6 +171,23 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script>
+    
+    $(".fa-arrow-up").click(function(e){
+        e.preventDefault();
+        var votes = $(this).parent().next();
+        var votes_num = votes.text();
+        
+        if ($(this).hasClass("disabled")){
+            votes_num = parseInt(votes_num) - 1;
+            $(this).removeClass("disabled");
+        }
+        else{
+            votes_num = parseInt(votes_num) + 1;
+            $(this).addClass("disabled");
+        } 
+        votes.text(votes_num); 
+      });
+        
     $("#wrapper").toggleClass("toggled");
     $("#menu-button").click(function(e) {
         e.preventDefault();

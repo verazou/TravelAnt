@@ -340,3 +340,8 @@ ul{
 h1 > a{
     color: #444444;
 }
+.fa.disabled {
+     color: lightgrey;
+     opacity: 0.8;
+     /*cursor: not-allowed;*/
+}
